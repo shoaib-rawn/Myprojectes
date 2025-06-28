@@ -17,7 +17,7 @@ This project is a simple image gallery built using React. It fetches images from
 ## Getting Started
 1. Clone the repository to your local machine:
     ```bash
-    https://github.com/shoaib-rawn/Myprojectes/tree/main/project%202%20(js_react)/FLICKER%20GALLERY%20APP
+   git clone https://github.com/shoaib-rawn/Myprojectes/tree/main/project%202%20(js_react)/FLICKER%20GALLERY%20APP
     ```
 
 2. Navigate into the project directory:
