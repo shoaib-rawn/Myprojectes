@@ -25,7 +25,7 @@ Installation
 bash
 Copy
 Edit
-git clone https://github.com/Stewysthings/my-react-app.git
+git clone https://github.com/shoaib-rawn/Myprojectes/tree/main/project%202%20(js_react)/FLICKER%20GALLERY%20APP
 cd my-react-app
 npm install
 npm start
