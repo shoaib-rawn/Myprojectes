@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Form</title>
+
+  <!-- ✅ Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- ✅ Internal CSS -->
+  <style>
+    body {
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    .form-container {
+      max-width: 500px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Enter Student Info</h2>
+    
+    <!-- ✅ enctype added to allow file upload -->
+    <form action="save.php" method="POST" enctype="multipart/form-data">
+
+      <div class="mb-3">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" name="name" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="age" class="form-label">Age:</label>
+        <input type="number" name="age" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" name="email" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="car" class="form-label">Car:</label>
+        <select name="car" class="form-select" required>
+          <option value="">Select Car</option>
+          <option value="Toyota">Toyota</option>
+          <option value="Honda">Honda</option>
+          <option value="Suzuki">Suzuki</option>
+        </select>
+      </div>
+
+      <!-- ✅ New file upload field -->
+      <div class="mb-3">
+        <label for="photo" class="form-label">Upload Image:</label>
+        <input type="file" name="photo" class="form-control" accept="image/*" required>
+      </div>
+
+      <div class="d-grid">
+        <input type="submit" value="Submit" class="btn btn-primary">
+      </div>
+
+    </form>
+  </div>
+
+</body>
+</html>
