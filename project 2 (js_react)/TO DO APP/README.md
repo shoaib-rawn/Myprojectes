@@ -14,6 +14,7 @@ Clear and readable UI
 Built with functional components and hooks
 
 Getting Started
+     git clone https://github.com/shoaib-rawn/Myprojectes/edit/main/project%202%20(js_react)/TO%20DO%20APP
 Prerequisites
 Make sure you have:
 
@@ -25,7 +26,7 @@ Installation
 bash
 Copy
 Edit
-git clone https://github.com/shoaib-rawn/Myprojectes/tree/main/project%202%20(js_react)/FLICKER%20GALLERY%20APP
+git clone 
 cd my-react-app
 npm install
 npm start
