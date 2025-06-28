@@ -1,0 +1,10 @@
+/* Apply the sans-serif font family to the entire body */
+body {
+  font-family: sans-serif; /* Use sans-serif font for the body text */
+  margin: 0; /* Remove default margin around the body */
+}
+
+/* Remove the margin from all <h1> elements */
+h1 {
+  margin: 0; /* Remove default margin applied to <h1> elements */
+}
